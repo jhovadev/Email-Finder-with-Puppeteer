@@ -14,8 +14,6 @@ import useEmail from "@/hooks/useEmail"
 
 export default function EmailTable() {
     const emails = useEmail((state: any) => state.emails);
-    console.log(JSON.stringify(emails));
-
     return (
         <>
             <div className="flex justify-center items-start w-full h-1/2 ">
